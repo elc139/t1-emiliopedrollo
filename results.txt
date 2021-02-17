@@ -1,0 +1,52 @@
+Linpack Xtreme v1.0.0 by Regeneration
+
+Current date/time: Sun Mar 15 18:51:50 2020
+
+CPU frequency:    4.098 GHz
+Number of CPUs: 1
+Number of cores: 6
+Number of threads: 12
+
+Parameters are set to:
+
+Number of tests: 1
+Number of equations to solve (problem size) : 22611
+Leading dimension of array                  : 22611
+Number of trials to run                     : 20   
+Data alignment value (in Kbytes)            : 4    
+
+Maximum memory requested that can be used=4090514884, at the size=22611
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+22611  22611  4      26.392     292.0494 4.839972e-10 3.364239e-02   pass
+22611  22611  4      26.381     292.1719 4.839972e-10 3.364239e-02   pass
+22611  22611  4      26.282     293.2671 4.839972e-10 3.364239e-02   pass
+22611  22611  4      26.176     294.4521 4.839972e-10 3.364239e-02   pass
+22611  22611  4      27.433     280.9683 4.839972e-10 3.364239e-02   pass
+22611  22611  4      27.903     276.2366 4.727432e-10 3.286013e-02   pass
+22611  22611  4      26.344     292.5748 4.839972e-10 3.364239e-02   pass
+22611  22611  4      27.293     282.4058 4.839972e-10 3.364239e-02   pass
+22611  22611  4      25.950     297.0213 4.839972e-10 3.364239e-02   pass
+22611  22611  4      26.120     295.0933 4.839972e-10 3.364239e-02   pass
+22611  22611  4      26.122     295.0660 4.839972e-10 3.364239e-02   pass
+22611  22611  4      25.787     298.8952 4.839972e-10 3.364239e-02   pass
+22611  22611  4      26.087     295.4665 4.839972e-10 3.364239e-02   pass
+22611  22611  4      26.388     292.0961 4.839972e-10 3.364239e-02   pass
+22611  22611  4      26.237     293.7732 4.839972e-10 3.364239e-02   pass
+22611  22611  4      28.113     274.1716 4.839972e-10 3.364239e-02   pass
+22611  22611  4      27.316     282.1719 4.839972e-10 3.364239e-02   pass
+22611  22611  4      27.177     283.6076 4.839972e-10 3.364239e-02   pass
+22611  22611  4      27.286     282.4815 4.839972e-10 3.364239e-02   pass
+22611  22611  4      26.831     287.2679 4.839972e-10 3.364239e-02   pass
+
+Performance Summary (GFlops)
+
+Size   LDA    Align.  Average  Maximal
+22611  22611  4       289.0619 298.8952
+
+Residual checks PASSED
+
+End of tests
+
